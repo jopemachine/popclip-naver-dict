@@ -1,5 +1,7 @@
 # popclip-naver-dict
 
+![](./demo.png)
+
 popclip으로 전달된 string 값을 네이버 사전에 검색합니다.
 
 네이버 사전에서 지원되는 모든 언어를 지원합니다.
