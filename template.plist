@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Extension Icon</key>
+  <string>[{language code}]</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>{language code}</string>
+			<key>URL</key>
+			<string>{url}</string>
+			<key>Image File</key>
+			<string>[{language code}]</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Search Naver Dictionary {language}</string>
+	<key>Extension Identifier</key>
+	<string>com.naverdict.{language}</string>
+	<key>Extension Name</key>
+	<string>Naver DICT {language korean}</string>
+</dict>
+</plist>

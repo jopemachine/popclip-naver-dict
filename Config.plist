@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>AppleScript File</key>
+			<string>open.applescript</string>
+			<key>Image File</key>
+			<string>icon.png</string>
+			<key>Long Running</key>
+			<true/>
+			<key>Title</key>
+			<string>Npm</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Open Npm webpage by popclip</string>
+	<key>Extension Identifier</key>
+	<string>com.jopemachine.popclip.extension.npm</string>
+	<key>Extension Name</key>
+	<string>Npm</string>
+	<key>Required Software Version</key>
+	<integer>701</integer>
+  <key>Pass HTML</key>
+	<true/>
+	<key>Credits</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://github.com/jopemachine/popclip-npm</string>
+				<key>Name</key>
+				<string>jopemachine</string>
+			</dict>
+		</array>
+  <key>Options</key>
+	<array>
+		<dict>
+			<key>Option Identifier</key>
+			<string>useGithub</string>
+			<key>Option Type</key>
+			<string>boolean</string>
+			<key>Option Label</key>
+			<dict>
+				<key>en</key>
+				<string>Search Github with shift</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
