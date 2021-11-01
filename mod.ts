@@ -53,6 +53,8 @@ const langsWithOldAPI = {
   "plkodict": "폴란드어",
   "fikodict": "핀란드어",
   "hukodict": "헝가리어",
+  "enendict": "영영사전",
+  "eniddict": "English-Indonesian"
 };
 
 ensureDirSync("packages");
@@ -91,7 +93,7 @@ for (
   configPlistStr = configPlistStr.replaceAll("{language korean}", fileName);
   configPlistStr = configPlistStr.replaceAll(
     "{language code}",
-    lang === "hanja" ? "han" : lang.substr(0, 2),
+    lang === "hanja" || lang === "enendict" ? lang.substr(0, 3) : lang.substr(0, 2),
   );
 
   const zip = new JSZip();
